@@ -1,4 +1,7 @@
-apply plugin: 'com.android.library'
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.github.moosti'
 
 android {
     compileSdkVersion 25
